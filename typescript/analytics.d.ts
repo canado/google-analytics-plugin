@@ -14,7 +14,7 @@ declare class UniversalAnalyticsPlugin {
     public setOptOut(optout:Boolean, successCallback?:Function, errorCallback?:Function): void;
 
 	/** Sets a setAllowIDFACollection */
-	public setAllowIDFACollection(enable:Boolean, successCallback?:Function, errorCallback?:Function):void;
+	/*public setAllowIDFACollection(enable:Boolean, successCallback?:Function, errorCallback?:Function):void;*/
 
 	/** Sets a AppVersion */
 	public setAppVersion(version:string, successCallback?:Function, errorCallback?:Function):void;
